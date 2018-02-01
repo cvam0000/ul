@@ -1,0 +1,47 @@
+
+
+
+body,html{
+    height: 100%;
+    margin: 0;
+}
+
+#blur{
+width: 100%;
+height: 100%;
+z-index: -1;
+position: fixed;
+background-image:url("pics/hackbackground.jpeg");
+top: 0;
+filter:blur(3px);
+  -o-filter:blur(3px);
+  -ms-filter:blur(3px);
+  -moz-filter:blur(3px);
+  -webkit-filter:blur(3px);
+}
+
+.logo{
+float:left;
+}
+.login{
+padding:20px;
+background-color:red;
+float:right;
+font-size:20px;
+}
+
+
+.abc{
+height:auto;
+width:auto;
+background-color:rgba(1,1,1,.7);
+color:white;
+padding:50px;
+
+
+}
+
+.fa{
+padding:5px;
+}
+	
